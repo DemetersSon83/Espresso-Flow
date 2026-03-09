@@ -1,0 +1,61 @@
+{
+  "model_name": "fast_flow_variant",
+  "random_seed": 15,
+  "geometry": {
+    "basket_radius_mm": 29.0,
+    "puck_depth_mm": 8.5,
+    "nr": 28,
+    "nz": 24
+  },
+  "grind": {
+    "coarse_median_um": 365.0,
+    "coarse_sigma_ln": 0.34,
+    "fines_median_um": 62.0,
+    "fines_sigma_ln": 0.25,
+    "fines_fraction": 0.14,
+    "samples_per_cell": 300
+  },
+  "packing": {
+    "porosity_uncompressed": 0.44,
+    "compression_level": 0.48,
+    "porosity_heterogeneity_std": 0.02,
+    "grind_heterogeneity_std": 0.17,
+    "fines_heterogeneity_std": 0.04,
+    "correlation_length_r_mm": 6.5,
+    "correlation_length_z_mm": 2.0,
+    "kozeny_carman_constant": 180.0,
+    "permeability_scale": 1.4e-5,
+    "fines_penalty": 2.9
+  },
+  "flow": {
+    "viscosity_pa_s": 0.00032,
+    "density_kg_m3": 970.0,
+    "preinfusion_bar": 2.0,
+    "preinfusion_time_s": 4.0,
+    "brew_bar": 8.5,
+    "total_time_s": 28.0,
+    "dt_s": 0.2,
+    "use_forchheimer": true,
+    "forchheimer_beta": 0.50
+  },
+  "extraction": {
+    "dose_g": 18.0,
+    "soluble_fraction": 0.30,
+    "fast_pool_fraction": 0.60,
+    "k_fast_s": 0.17,
+    "k_slow_s": 0.020,
+    "velocity_reference_m_s": 0.0030,
+    "fast_velocity_exponent": 0.30,
+    "slow_velocity_exponent": 0.16,
+    "temperature_c": 93.0,
+    "temperature_reference_c": 93.0,
+    "temperature_sensitivity_per_c": 0.018,
+    "wetting_velocity_reference_m_s": 0.0018
+  },
+  "output": {
+    "save_fields_npz": true,
+    "save_timeseries_csv": true,
+    "save_summary_json": true,
+    "save_plots": true
+  }
+}
