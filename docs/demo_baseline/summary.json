@@ -1,0 +1,16 @@
+{
+  "model_name": "baseline_espresso",
+  "random_seed": 7,
+  "dose_g": 18.0,
+  "target_beverage_mass_g": 36.0,
+  "time_to_target_mass_s": 31.6,
+  "final_beverage_mass_g": 36.757882902643566,
+  "final_solids_g": 3.8487516212484967,
+  "final_extraction_yield_percent": 21.38195345138054,
+  "final_cumulative_tds_percent": 10.470547586873403,
+  "mean_flow_ml_s": 1.1768548025435002,
+  "median_permeability_m2": 1.7197558542939209e-15,
+  "mean_porosity": 0.375,
+  "mean_particle_um": 290.9498424103073,
+  "mean_fines_fraction": 0.18000000000000002
+}
