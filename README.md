@@ -227,7 +227,7 @@ This repository was designed to be compatible with common ideas from the espress
 - preinfusion / wetting effects
 - optional inertial corrections at high gradients
 
-If you want a stronger research version, the most natural next steps are:
+## Future work
 
 - explicit fines migration,
 - a coupled nonlinear Forchheimer pressure solve,
