@@ -3,14 +3,15 @@ title: "Espresso Flow"
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
-  - family-names: "Bailey"
+  - family-names: Bailey
+    given-names: Mark M.
 version: 0.1.0
 date-released: 2026-03-08
 license: MIT
 abstract: >
   Reduced-order espresso extraction model with stochastic bimodal grind-size
   sampling, 2D heterogeneous permeability fields, Darcy/Forchheimer flow,
-  and black-and-white visualization outputs.
+  and visualization outputs.
 keywords:
   - espresso
   - porous media
