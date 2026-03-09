@@ -1,9 +1,9 @@
 cff-version: 1.2.0
-title: "Espresso Darcy Model"
+title: "Espresso Flow"
 message: "If you use this software, please cite it using the metadata from this file."
 type: software
 authors:
-  - family-names: "OpenAI"
+  - family-names: "Bailey"
 version: 0.1.0
 date-released: 2026-03-08
 license: MIT
